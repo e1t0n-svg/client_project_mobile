@@ -1,0 +1,49 @@
+.skip a{
+    margin-bottom: 65px;
+     position: fixed;
+     z-index: -1000;
+}
+
+.skip:focus{
+     margin-bottom: 25px;
+}
+
+a:hover, a:focus{
+     border: dotted 2px #800080;
+}
+
+
+h1 {
+    color:#000000;
+}
+
+section{
+    font-size: 2em;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.whyuse, .studentid{
+   grid-column: 2 / 3;
+}
+
+#guidancebacked, #alwaysaccesible{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.popular, .connect{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+img{
+    width: 500px;
+    padding: 50px;
+}
+
+nav{
+background-color: #00274C;
+padding: 25px 0; 
+text-align: right;  
+padding: 35px 0px 35px 0px;
+} 
