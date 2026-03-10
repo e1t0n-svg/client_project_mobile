@@ -20,7 +20,7 @@ h1 {
 section{
     font-size: 2em;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 20px;
 }
 
@@ -34,13 +34,16 @@ section{
 }
 .popular, .connect{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 img{
     width: 500px;
     padding: 50px;
 }
-
+.modern{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 nav{
 background-color: #00274C;
 padding: 25px 0; 
